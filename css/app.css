@@ -128,6 +128,11 @@
     
 }
 
+.colorTexto
+{
+  color:#FFFFFF;
+}
+
 
 .orbitInicio
 {
@@ -251,7 +256,7 @@ width:100%;
 }
 
 .backG1 {
-    background: url('../img/iconHome1.png') no-repeat center;
+    background: url('../img/iconoAnalisis.png') no-repeat center;
     height: 150px;
     margin-bottom:10px;
     transition: all 0.3s ease;
@@ -262,7 +267,7 @@ width:100%;
 
 
 .backG2 {
-    background: url('../img/iconoHome2.png') no-repeat center;
+    background: url('../img/iconoDesarrollo.png') no-repeat center;
     height: 150px;
     margin-bottom:10px;
     transition: all 0.3s ease;
@@ -271,8 +276,22 @@ width:100%;
 
 }
 
+.backgroundBody
+{
+	background-color: #000000;
+}
+
 .backG3 {
-    background: url('../img/iconoHome3.png') no-repeat center;
+    background: url('../img/iconoImplementacion.png') no-repeat center;
+    height: 150px;
+    margin-bottom:10px;
+    transition: all 0.3s ease;
+    color: rgba(255, 255, 255, .0005); 
+
+}
+
+.backG4 {
+    background: url('../img/iconoSoporte.png') no-repeat center;
     height: 150px;
     margin-bottom:10px;
     transition: all 0.3s ease;
@@ -284,9 +303,9 @@ width:100%;
 {
   background:rgba(57,57,57,.8);
   color:#FFFFFF;
-  -webkit-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  transform: scale(0.8);
+  -webkit-transform: scale(1.005,1.005) translate(20px, 20px);
+  -ms-transform: scale(1.005,1.005) translate(20px, 20px);
+  transform: scale(1.005,1.005) translate(20px, 20px);
   box-shadow: inset 0 0 0 3px #555953;
   text-align:center;
   display: flex;
