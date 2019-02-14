@@ -18,7 +18,8 @@
     transform: translateY(-50%);
     font-size: 25px;
     left: 10px;
-    color: #abf000;
+    color: #00C1F1;
+
 }
 
 .off-canvas-left {
@@ -110,6 +111,11 @@
     height: 175px;
    
     
+}
+
+.box--homeSlogan
+{
+height: 125px;
 }
 
 .box-mediumNosotros
@@ -230,28 +236,35 @@ width:100%;
 }
 
 [class*="BackgroundGeneral"] {
-  background: url('../img/fondoMobil.png') no-repeat center center fixed;
-  background-size: contain;
+  background: url('../img/fondoSmall.png') no-repeat center center fixed;
+  background-size: cover;
   height:500px;
 }
 
 @media print, screen and (min-width: 40em) {
 
 	.BackgroundGeneral {
-    		background: url('../img/fondoGeneral.jpg') no-repeat center center fixed;
+    		background: url('../img/fondoGeneral.png') no-repeat center center fixed;
     		background-size: cover;
 		
 	}
 }
+
+.BackgroundContactanos {
+    		background: url('../img/contactanos.png') no-repeat center center fixed;
+    		background-size: cover;
+
+		
+		}
 
 .HeaderTabla {
     background-color: rgba(0,0,0,.8);
     color: #ABF000;
 }
 
-.BotonVerde
+.BotonContactanos
 {
-	background-color: #ABF000!important;
+	background-color: #00C1F1!important;
 	color: #000000;
 }
 
@@ -423,6 +436,12 @@ text-align-last:center;
 {
 opacity: 0.3;
   filter: alpha(opacity=30);
+}
+
+.captionSlider
+{
+background-color: rgba(211, 211, 211, .8);
+color:#000000;
 }
 
 
