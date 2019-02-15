@@ -235,7 +235,7 @@ width:100%;
 [class*="BackgroundGeneral"] {
   background: url('../img/fondoSmall.png') no-repeat center center fixed;
   background-size: cover;
-  height:500px;
+
 }
 
 @media print, screen and (min-width: 40em) {
