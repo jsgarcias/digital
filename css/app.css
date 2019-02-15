@@ -129,7 +129,7 @@ height: 125px;
     margin-bottom:75px;
     text-align: center;
     padding-top:50px;
-    border-bottom: 8px outset white; 
+    
 
     
 }
@@ -170,7 +170,7 @@ width:100%;
 
 .tituloPantalla
 {
-	color: #FFFFFF;
+	color: #FFFFFF!important;
 }
 
 [class*="imagenTitulo"] {
@@ -321,6 +321,19 @@ width:100%;
   align-items: center;
 }
 
+.contactanos:hover
+{
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  color:#000000;
+  
+  box-shadow: inset 0 0 0 3px #555953;
+  text-align:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .filtroSlider
 {
 filter: blur(10px);
@@ -425,6 +438,11 @@ text-align-last:center;
 { 
  
   padding:0px!important;
+}
+
+.imgContactanos
+{
+height:350px;
 }
 
 .imgInfo:hover
