@@ -10,12 +10,12 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/lupa.png">
 </head>
-<body class="BackgroundContactanos">
+<body class="BackgroundGeneral">
     <div class="off-canvas-wrapper">
         <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
             <div class="off-canvas position-left off-canvas-left" id="offCanvasLeft" data-off-canvas>
                 <ul class="off-canvas-left-list">
-                    <li><label class="off-canvas-left-title">Peek 'n Clean</label></li>
+                    <li><label class="off-canvas-left-title">Digital Rising</label></li>
                     <li><a href="home.html" class="off-canvas-left-a">P&aacute;gina principal</a></li>
                 </ul>
                 <ul class="off-canvas-left-list">
@@ -45,19 +45,79 @@
                 </div>
                 <div class="grid-container" style="padding-top: 45px;">
                     <div class="grid-x grid-padding-x">
-                        <div class="large-12 cell box--large ">
+                        <div class="large-12 cell box--large tituloPantalla ">
                             <h1><strong>CONTACTANOS</strong></h1>
                         </div>
                     </div>
 
+                   
+
+
                     <div class="row">
-                        <div class="small-12 medium-6 large-6 columns medium-centered large-centered box--medium centrarDiv ">
-                            <h3>¡Queremos ayudarte!</h3>
-                            <p>Env&iacute;anos tus datos y te contactaremos lo antes posible para coordinar tu cita y atenderte como te mereces.</p>
+                        <div class="small-12 medium-12 large-12 columns medium-centered large-centered">
+                            <div class="row">
+                                <div class="small-12 medium-6 large-6 columns">
+                                    <div class="BackgroundContactanos">
+                                        <div class="row">
+                                            <div class="small-12 medium-6 large-6 columns medium-centered large-centered box--medium centrarDiv ">
+                                                <h3>¡Queremos ayudarte!</h3>
+                                                <p>Env&iacute;anos tus datos y te contactaremos lo antes posible para coordinar tu cita y atenderte como te mereces.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 large-6 columns">
+                                    <form action="javascript:contacto();" id="myForm" method="POST">
+                                        <fieldset class="fieldset">
+                                            <div class="row">
+                                                <div class="small-12 medium-6 large-6 columns">
+                                                    <label for="nombre">Nombre</label>
+                                                    <input type="text" name="nombre" id="nombre" required pattern="[a-zA-Z]+" />
+
+                                                </div>
+                                                <div class="small-12 medium-6 large-6 columns">
+                                                    <label for="nombre">Apellido</label>
+                                                    <input type="text" name="apellido" id="apellido" required pattern="[a-zA-Z]+" />
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="small-12 medium-6 large-6 columns">
+                                                    <label for="correo">Correo</label>
+                                                    <input type="email" name="correo" id="correo" />
+
+                                                </div>
+                                                <div class="small-12 medium-6 large-6 columns">
+                                                    <label for="celular">Celular</label>
+                                                    <input type="text" name="celular" id="celular" />
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="small-12 medium-6 large-6 columns">
+                                                    <label for="fechaSolicitada">Fecha</label>
+                                                    <input type="date" name="fechaSolicitada" id="fechaSolicitada" />
+                                                </div>
+                                                <div class="small-12 medium-6 large-6 columns">
+                                                    <label for="horaSolicitada">Hora</label>
+                                                    <input type="time" name="horaSolicitada" id="horaSolicitada" />
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="small-12 medium-12 large-12 columns">
+                                                    <input type="submit" value="ENVIAR" class="button expanded BotonContactanos">
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+
+
+                            </div>
                         </div>
                     </div>
 
-                    <div class="row ">
+
+
+                    <!--<div class="row ">
                         <div class="small-12 medium-6 large-6 columns medium-centered large-centered">
                             <form action="javascript:contacto();" id="myForm" method="POST">
                                 <fieldset class="fieldset">
@@ -95,13 +155,13 @@
                                     </div>
                                     <div class="row">
                                         <div class="small-12 medium-12 large-12 columns">
-                                            <input type="submit" value="ENVIAR" class="button expanded BotonVerde">
+                                            <input type="submit" value="ENVIAR" class="button expanded BotonContactanos">
                                         </div>
                                     </div>
                                 </fieldset>
                             </form>
                         </div>
-                    </div>
+                    </div>-->
 
 
                     <footer class="row expanded collapse footerc">

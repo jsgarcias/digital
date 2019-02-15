@@ -129,7 +129,7 @@ height: 125px;
     margin-bottom:75px;
     text-align: center;
     padding-top:50px;
-    border-bottom: 8px dotted black; 
+    border-bottom: 8px outset white; 
 
     
 }
@@ -170,10 +170,7 @@ width:100%;
 
 .tituloPantalla
 {
-	margin-left:0;
-	display:block;
-	float:left;
-	width:100%;
+	color: #FFFFFF;
 }
 
 [class*="imagenTitulo"] {
@@ -251,10 +248,8 @@ width:100%;
 }
 
 .BackgroundContactanos {
-    		background: url('../img/contactanos.png') no-repeat center center fixed;
-    		background-size: cover;
-
-		
+    		  background: url('../img/contactanos.png') no-repeat center;
+ 
 		}
 
 .HeaderTabla {
