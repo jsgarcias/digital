@@ -360,7 +360,7 @@ filter: blur(10px);
 }
 
 .pricing-table .title {
-  background-color: #0a0a0a;
+  background-color: rgba(57,57,57,.8);
   color: #fefefe;
   border-bottom: 0;
 }
@@ -457,10 +457,12 @@ background-color: rgba(211, 211, 211, .8);
 color:#000000;
 }
 
-.QueHacemosAcordion 
+.BackGroundOpacidadGris
 {
-  background:rgba(57,57,57,.5);
+  background:rgba(57,57,57,.5)!important;
 }
+
+
 
 
 
