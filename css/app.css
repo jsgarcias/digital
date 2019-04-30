@@ -464,20 +464,14 @@ color:#000000;
   background:rgba(57,57,57,.5)!important;
 }
 
+.parpadeante {
+    color: #DAEC00;
+    animation: blinker 1s linear infinite;
+    font-weight: bold;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
+}
